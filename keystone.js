@@ -19,6 +19,7 @@ keystone.init({
 	'session': true,
 	'auth': true,
 	'user model': 'User',
+	'cookie secret': 'cookieszijnlekker'
 });
 keystone.import('models');
 keystone.set('locals', {
